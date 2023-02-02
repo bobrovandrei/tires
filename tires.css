@@ -1,0 +1,419 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #ff7e00;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6a6a6a;
+  margin-bottom: 0%;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1a1e29;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1a1e29;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #1a1e29;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 0%;
+}
+
+span {
+  color: #4c65bd;
+}
+
+.container {
+  width: 1224px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+header {
+  display: flex;
+  background-color: #1a1e29;
+  margin-bottom: 40px;
+}
+
+select {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #1a1e29;
+  border: none;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  top: 107px;
+  position: absolute;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+header ul li {
+  margin-right: 40px;
+}
+
+header img {
+  margin-left: auto;
+}
+
+header :last-child {
+  margin-left: auto;
+}
+
+/* section */
+
+section {
+  width: 1224px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 140px;
+}
+
+.carousel-inner {
+  height: 385px;
+  width: 1224px;
+  margin: 0 auto;
+}
+
+.selects {
+  height: 170px;
+  border-radius: 16px;
+  position: absolute;
+  top: 320px;
+  background-color: white;
+  width: 1200px;
+  left: 12px;
+  border: solid 1px;
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+#selects {
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  width: 184px;
+  height: 40px;
+  color: #1a1e29;
+  margin-top: 40px;
+}
+
+.selects h5 {
+  position: absolute;
+}
+
+.selects button {
+  position: absolute;
+  bottom: 14px;
+  width: 232px;
+  height: 40px;
+  background: #ff7e00;
+  border-radius: 2px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* article */
+
+article {
+  width: 1224px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.servises ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 0%;
+  margin-top: 32px;
+}
+
+.servises ul li {
+  width: 392px;
+  height: 392px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+}
+
+.description {
+  padding: 10px;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+  width: 202px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #efd8c3;
+  border-radius: 2px;
+  color: #ff7e00;
+}
+
+/* main */
+
+main {
+  width: 1224px;
+  margin: 0 auto;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+main h1 {
+  text-align: center;
+}
+
+.tyres ul li :hover {
+  color: #ff7e00;
+  cursor: pointer;
+  border-bottom: solid 1px #ff7e00;
+}
+
+.tyres ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 0;
+  margin-bottom: 80px;
+}
+
+/* cards */
+
+.cards_tyres ul li {
+  width: 288px;
+  height: 568px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  position: relative;
+}
+
+.cards_tyres ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+.rating polygon:hover {
+  cursor: pointer;
+  transition: 500ms;
+}
+.rating polygon:hover {
+  fill: black;
+}
+.rating polygon {
+  fill: lightgray;
+}
+.rating polygon.active {
+  fill: gold;
+}
+
+.card_text {
+  margin: 20px;
+}
+
+.type {
+  position: absolute;
+  bottom: 140px;
+}
+
+.card_text p {
+  position: absolute;
+  bottom: 90px;
+}
+
+.card_text button {
+  position: absolute;
+  bottom: 20px;
+  width: 168px;
+  height: 40px;
+  background-color: #ff7e00;
+  color: #ffffff;
+  padding: 0%;
+}
+
+.card_text::after {
+  position: absolute;
+  right: 29px;
+  bottom: 14px;
+  content: url(img/normal.png);
+}
+
+/* cards_wheels */
+
+.cards_wheels {
+  margin-top: 50px;
+}
+
+.cards_wheels ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0%;
+}
+
+.cards_wheels ul li {
+  width: 288px;
+  height: 568px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  position: relative;
+}
+
+/* stock */
+
+.stock {
+  margin-top: 50px;
+}
+
+.stock ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0%;
+}
+
+.stock ul li {
+  width: 392px;
+  height: 448px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  position: relative;
+}
+
+.stock_text {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stock_text p {
+  position: absolute;
+  bottom: 20px;
+}
+
+.stock_text p::before {
+  content: url(img/Union4.png);
+  margin-right: 5px;
+}
+
+.stock_info {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.stock_info img {
+  float: left;
+  margin-right: 38px;
+}
+
+.stock_info h1 {
+  text-align: left;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  width: 1224px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 0%;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.parts ul li {
+  color: #ff7e00;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.servis ul li {
+  color: #ff7e00;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.company ul li {
+  color: #ff7e00;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.kabinet ul li {
+  color: #ff7e00;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}

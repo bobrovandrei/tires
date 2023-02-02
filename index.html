@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Jost:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="tires.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <ul>
+                <li><select name="header_list" id="list1">
+                        <option value="Товары">Товары</option>
+                        <option value="Товары">Товары</option>
+                        <option value="Товары">Товары</option>
+                    </select></li>
+                <li><select name="header_list" id="list2">
+                        <option value="Услуги">Услуги</option>
+                        <option value="Услуги">Услуги</option>
+                        <option value="Услуги">Услуги</option>
+                    </select></li>
+                <li><select name="header_list" id="list3">
+                        <option value="Компании">Компании</option>
+                        <option value="Компании">Компании</option>
+                        <option value="Компании">Компании</option>
+                    </select></li>
+            </ul>
+
+            <img src="img/Logo.png" alt="logo">
+
+            <ul>
+                <li>
+                    <img src="img/Union.png" alt="Union">
+                </li>
+                <li>
+                <li><select name="kabinet" id="kabinet">
+                        <option value="Личный кабинет">Личный кабинет</option>
+                        <option value="Личный кабинет">Личный кабинет</option>
+                        <option value="Личный кабинет">Личный кабинет</option>
+                    </select></li>
+                </li>
+                <li>
+                    <img src="img/like.png" alt="like">
+                </li>
+                <li>
+                    <img src="img/of.png" alt="of">
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Rectangle 43.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Rectangle 43.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+            </button>
+        </div>
+
+        <div class="selects">
+            <h5>Подберём шины или <span> диски</span> по марке автомобиля или <span>параметрам товара</span></h5>
+            <select name="Производитель" id="selects">
+                <option value="Производитель">Производитель</option>
+                <option value="Производитель">Производитель</option>
+            </select>
+            <select name="Модель" id="selects">
+                <option value="Модель">Модель</option>
+                <option value="Модель">Модель</option>
+            </select>
+            <select name="Поколение" id="selects">
+                <option value="Поколение">Поколение</option>
+                <option value="Поколение">Поколение</option>
+            </select>
+            <select name="Модификация" id="selects">
+                <option value="Модификация">Модификация</option>
+                <option value="Модификация">Модификация</option>
+            </select>
+            <select name="Кузов" id="selects">
+                <option value="Кузов">Модификация</option>
+                <option value="Кузов">Модификация</option>
+            </select>
+            <button>Подобрать</button>
+        </div>
+    </section>
+
+    <article>
+
+        <h1>Популярные услуги</h1>
+
+        <div class="servises">
+            <ul>
+                <li>
+                    <img src="img/111.png" alt="img">
+                    <div class="description">
+                        <h4>Шиномонтаж</h4>
+                        <p>Ежедневно с 9:00 до 21:00, без перерывов</p>
+                        <p>от 500 p.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/222.png" alt="img">
+                    <div class="description">
+                        <h4>Ремонт и правка дисков</h4>
+                        <p>Ежедневно с 9:00 до 21:00, без перерывов</p>
+                        <p>от 500 p.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/333.png" alt="img">
+                    <div class="description">
+                        <h4>Сезонное хранение шин</h4>
+                        <p>Ежедневно с 9:00 до 21:00, без перерывов</p>
+                        <p>от 500 p.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <button>
+            <a href="#">
+                <h6> Посмотреть все услуги</h6>
+            </a>
+        </button>
+    </article>
+
+    <main>
+
+        <h1>Популярные шины</h1>
+
+        <div class="tyres">
+            <ul>
+                <li><span>Легковые</span> </li>
+                <li><span>Грузовые</span></li>
+                <li><span>Мото</span></li>
+            </ul>
+        </div>
+
+        <div class="cards_tyres">
+            <ul>
+                <li>
+                    <img src="img/5555.png" alt="">
+                    <div class="card_text">
+                        <div class="rating"></div>
+                        <h4>Goodyear Vector 4Seasons</h4>
+                        <div class="type">
+                            <img src="img/Union (2).png" alt="">
+                            <img src="img/Union (3).png" alt="">
+
+                        </div>
+                        <p>В наличии: 14 шт.</p>
+
+                        <button>5000 p.</button>
+                    </div>
+                </li>
+                <li><img src="img/5555.png" alt="">
+                    <div class="card_text">
+                        <span class="rating"></span>
+                        <h4>Goodyear Vector 4Seasons SUV Gen-2</h4>
+                        <div class="type">
+                            <img src="img/Union (2).png" alt="">
+                            <img src="img/Union (3).png" alt="">
+
+                        </div>
+                        <p>В наличии: 14 шт.</p>
+
+                        <button>5000 p.</button>
+                    </div>
+                </li>
+                <li><img src="img/5555.png" alt="">
+                    <div class="card_text">
+                        <span class="rating"></span>
+                        <h4>Cordiant Snow Cross 2</h4>
+                        <div class="type">
+                            <img src="img/Union (2).png" alt="">
+                            <img src="img/Union (3).png" alt="">
+                        </div>
+                        <p>В наличии: 14 шт.</p>
+
+                        <button>5000 p.</button>
+                    </div>
+                </li>
+                <li><img src="img/5555.png" alt="">
+                    <div class="card_text">
+                        <span class="rating"></span>
+                        <h4>Pirelli PZero</h4>
+                        <div class="type">
+                            <img src="img/Union (2).png" alt="">
+                            <img src="img/Union (3).png" alt="">
+                        </div>
+                        <p>В наличии: 14 шт.</p>
+
+                        <button>5000 p.</button>
+                    </div>
+
+                </li>
+            </ul>
+
+
+        </div>
+
+        <button>Посмотреть все шины</button>
+
+        <div class="cards_wheels">
+            <ul>
+                <li>
+                    <img src="img/Rectangle 51.png" alt="">
+                    <div class="card_text">
+                        <div class="rating"></div>
+                        <h4>Колесный диск Tech Line</h4>
+                        <div class="type">
+                            <img src="img/Union (2).png" alt="">
+                            <img src="img/Union (3).png" alt="">
+
+                        </div>
+                        <p>В наличии: 14 шт.</p>
+
+                        <button>5000 p.</button>
+                    </div>
+                </li>
+                <li><img src="img/Rectangle 51 (1).png" alt="">
+                    <div class="card_text">
+                        <span class="rating"></span>
+                        <h4>Колесный диск Tech Line</h4>
+                        <div class="type">
+                            <img src="img/Union (2).png" alt="">
+                            <img src="img/Union (3).png" alt="">
+
+                        </div>
+                        <p>В наличии: 14 шт.</p>
+
+                        <button>5000 p.</button>
+                    </div>
+                </li>
+                <li><img src="img/Rectangle 51 (2).png" alt="">
+                    <div class="card_text">
+                        <span class="rating"></span>
+                        <h4>Колесный диск Tech Line</h4>
+                        <div class="type">
+                            <img src="img/Union (2).png" alt="">
+                            <img src="img/Union (3).png" alt="">
+                        </div>
+                        <p>В наличии: 14 шт.</p>
+
+                        <button>5000 p.</button>
+                    </div>
+                </li>
+                <li><img src="img/Rectangle 51 (3).png" alt="">
+                    <div class="card_text">
+                        <span class="rating"></span>
+                        <h4>Колесный диск Tech Line</h4>
+                        <div class="type">
+                            <img src="img/Union (2).png" alt="">
+                            <img src="img/Union (3).png" alt="">
+                        </div>
+                        <p>В наличии: 14 шт.</p>
+
+                        <button>5000 p.</button>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+        <button>Посмотреть все диски</button>
+    </main>
+
+    <article>
+
+        <h1>Aкции</h1>
+
+        <div class="stock">
+            <ul>
+                <li>
+                    <img src="img/Rectangle 50.png" alt="">
+                    <div class="stock_text">
+                        <h4>Тормозные колодки со скидкой 10%</h4>
+                        <p>Действует до:
+                            <b> 30.09.2021</b>
+                        </p>
+                    </div>
+                </li>
+                <li><img src="img/Rectangle 50 (1).png" alt="">
+                    <div class="stock_text">
+                        <h4>Скидка 10% на датчики давления при покупке дисков!</h4>
+                        <p>Действует до:
+                            <b>30.09.2021</b>
+                        </p>
+                    </div>
+                </li>
+                <li><img src="img/Rectangle 50 (2).png" alt="">
+                    <div class="stock_text">
+                        <h4>Покупайте новую АКБ
+                            со скидкой до 1500 рублей
+                            и бесплатной заменой!</h4>
+                        <p>Действует до:
+                            <b>30.09.2021</b>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+
+            <button>Посмотреть все акции</button>
+
+            <div class="stock_info">
+                <img src="img/Rectangle 52.png" alt="">
+
+                <h1>Шинный центр 13 — один из самых крупных магазинов по продаже шин
+                    и дисков в Саранске</h1>
+
+                <p>Если вы хотите правильно купить шины в Саранске, то должны знать об
+                    основных параметрах подбора
+                    покрышек. Главное — ориентироваться на информацию, указанную в
+                    маркировке.</p>
+
+                <p>Наша сеть — официальный дилер многих ведущих производителей, у нас вы можете купить шины и диски с
+                    полноценной гарантией на весь срок эксплуатации.</p>
+
+                <button>Подробнее</button>
+            </div>
+
+        </div>
+
+    </article>
+
+    <div class="clearfix"></div>
+
+    <hr>
+
+    <footer>
+
+        <div class="parts">
+            <ul>
+                <li>
+                    Товары
+                </li>
+                <li>
+                    <p>Автомобильные шины</p>
+                </li>
+                <li>
+                    <p>Автомобильные диски</p>
+                </li>
+                <li>
+                    <p>Аксессуары для шин, дисков и шиномонтажа</p>
+                </li>
+                <li>
+                    <p>Аккумуляторы</p>
+                </li>
+                <li>
+                    <p>Автомасла</p>
+                </li>
+                <li>
+                    <p>Автозапчасти</p>
+                </li>
+                <li>
+                    <p>Автоэлектроника</p>
+                </li>
+                <li>
+                    <p>Автохимия
+                        и автокосметика</p>
+                </li>
+                <li>
+                    <p>Внешний декор, тюнинг, защита</p>
+                </li>
+                <li>
+                    <p>Инструменты
+                        и техническая помощь</p>
+                </li>
+                <li>
+                    <p>Компрессоры</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="servis">
+            <ul>
+                <li>
+                    Услуги
+                </li>
+                <li>
+                    <p>Шиномонтаж</p>
+                </li>
+                <li>
+                    <p>Всё для шиномонтажа</p>
+                </li>
+                <li>
+                    <p>Ремонт и правка дисков</p>
+                </li>
+                <li>
+                    <p>Ошиповка зимних шин</p>
+                </li>
+                <li>
+                    <p>Сезонное хранение</p>
+                </li>
+                <li>
+                    <p>Ремонт шин</p>
+                </li>
+                <li>
+                    <p>Сход-развал</p>
+                </li>
+                <li>
+                    <p>Мелкосрочный ремонт</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="company">
+            <ul>
+                <li>
+                    Компания
+                </li>
+                <li>
+                    <p>О компании</p>
+                </li>
+                <li>
+                    <p>Оплата</p>
+                </li>
+                <li>
+                    <p>Доставка</p>
+                </li>
+                <li>
+                    <p>Статьи и новости</p>
+                </li>
+                <li>
+                    <p>Акции и скидки</p>
+                </li>
+                <li>
+                    <p>Контакты</p>
+                </li>
+                <li>
+                    <p>Кредит</p>
+                </li>
+                <li>
+                    <p>Гарантия</p>
+                </li>
+                <li>
+                    <p>Подарочные сертификаты</p>
+                </li>
+                <li>
+                    <p>Оптовым клиентам</p>
+                </li>
+                <li>
+                    <p>Возврат товара</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="kabinet">
+            <ul>
+                <li>
+                    Личный кабинет
+                </li>
+                <li>
+                    <p>Корзина</p>
+                </li>
+                <li>
+                    <p>Баллы</p>
+                </li>
+                <li>
+                    <p>Гараж</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="tires.js"></script>
+</body>
+
+</html>
